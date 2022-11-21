@@ -1,5 +1,8 @@
 def task(dataA,dataB):
   import numpy as np
+  import json
+  dataA = json.loads(dataA)
+  dataB = json.loads(dataB)
   def bah4a(numbers):
     max=0
     for elem in numbers:
